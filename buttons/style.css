@@ -1,0 +1,149 @@
+@font-face {
+	font-family: 'download';
+	src:url('download.eot');
+	src:url('download.eot?#iefix') format('embedded-opentype'),
+		url('download.woff') format('woff'),
+		url('download.ttf') format('truetype'),
+		url('download.svg#download') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[data-download]:before {
+	font-family: 'download';
+	content: attr(data-download);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	margin-right: 10px;
+}
+
+.icon-drawer, .icon-drawer-2, .icon-box-add, .icon-download, .icon-download-2, .icon-flag, .icon-checkmark, .icon-install, .icon-download-3 {
+	font-family: 'download';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-drawer:before {
+	content: "\41";
+}
+.icon-drawer-2:before {
+	content: "\53";
+}
+.icon-box-add:before {
+	content: "\44";
+}
+.icon-download:before {
+	content: "\46";
+}
+.icon-download-2:before {
+	content: "\47";
+}
+.icon-flag:before {
+	content: "\48";
+}
+.icon-checkmark:before {
+	content: "\4a";
+}
+.icon-install:before {
+	content: "\4b";
+}
+.icon-download-3:before {
+	content: "\4c";
+}
+
+@font-face {
+	font-family: 'donate';
+	src:url('donate.eot');
+	src:url('donate.eot?#iefix') format('embedded-opentype'),
+		url('donate.woff') format('woff'),
+		url('donate.ttf') format('truetype'),
+		url('donate.svg#donate') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[data-donate]:before {
+	font-family: 'donate';
+	content: attr(data-donate);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	margin-right: 10px;
+}
+
+.icon-paypal, .icon-reading, .icon-gift, .icon-globe, .icon-checkmark, .icon-earth, .icon-gift-2, .icon-diary {
+	font-family: 'donate';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-paypal:before {
+	content: "\51";
+}
+.icon-reading:before {
+	content: "\57";
+}
+.icon-gift:before {
+	content: "\45";
+}
+.icon-globe:before {
+	content: "\52";
+}
+.icon-checkmark:before {
+	content: "\54";
+}
+.icon-earth:before {
+	content: "\59";
+}
+.icon-gift-2:before {
+	content: "\55";
+}
+.icon-diary:before {
+	content: "\49";
+}
+
+
+/* Download Button */
+
+
+
+/* Donate Button 
+#8fd1a5 = 143,209,165
+#41a563 = 65,165,99
+*/
+.btn-donate {
+	color: white;
+	background-color: #8fd1a5;
+	*background-color: #8fd1a5;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(143,209,165)), to(rgb(65,165,99)));
+	background-image: -webkit-linear-gradient(rgb(143,209,165), rgb(65,165,99));
+	background-image: -moz-linear-gradient(rgb(143,209,165), rgb(65,165,99));
+	background-image: -o-linear-gradient(rgb(143,209,165), rgb(65,165,99));
+	background-image: linear-gradient(rgb(143,209,165), rgb(65,165,99));
+	border: 1px solid #e6e6e6;
+	*border: 0;
+	border-color: #e6e6e6;
+	border-color: rgba(0, 0, 0, 0.1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8fd1a5', endColorstr='#41a563', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	margin-bottom: 10px;
+}
+
+.btn-donate:hover {
+	background: #41a563;
+}
